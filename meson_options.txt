@@ -1,0 +1,2 @@
+option('enable_can', type : 'boolean', value : true, description : 'Enable socketcan')
+option('commands_type', type : 'combo', choices : ['static', 'plugins', 'none'], value : 'none', description : 'Select command type - note that "plugins" require dynamically linked dependencies!')

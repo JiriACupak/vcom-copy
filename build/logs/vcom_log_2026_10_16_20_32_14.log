@@ -1,0 +1,16 @@
+0.000024: Log start: 2026/10/16 20:32:14.797627
+0.000048: Writing log to file: ./logs/vcom_log_2026_10_16_20_32_14.log
+0.000098: VCOM version information:
+0.000104: Semantic version: 0.9.0
+0.000109: Git revision:  15d6b52-dirty
+0.000115: CSP revision:  v1.6+vzlu
+0.000122: Build time:    Oct 16 2026 20:11:56
+0.000144: Commands type: plugins
+0.000169: 
+Starting
+
+0.000373: No interfaces enabled, adding default route via LOOP
+0.000376: [tip] Use the config file to define interfaces.
+0.000402: Start CSP router
+0.000519: Start CSP server
+0.000689: csp_server task waiting for connections

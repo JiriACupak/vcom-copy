@@ -1,0 +1,4 @@
+{
+"paranoid" : { "enable" : false},
+"plugins": [ { "path": "/home/wsl/YSPACE/component-template/component-template/MY/my_plugin.so", "md5sum" : "7f3fa6ff9fdb53ad527613c700666bd1" } ]
+}

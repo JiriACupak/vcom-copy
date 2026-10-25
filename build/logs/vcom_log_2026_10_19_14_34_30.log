@@ -1,0 +1,32 @@
+0.000121: Log start: 2026/10/19 14:34:30.022591
+0.000331: Writing log to file: ./logs/vcom_log_2026_10_19_14_34_30.log
+0.000433: VCOM version information:
+0.000526: Semantic version: 0.9.0
+0.000605: Git revision:  15d6b52-dirty
+0.000631: CSP revision:  v1.6+vzlu
+0.000775: Build time:    Oct 16 2026 20:11:56
+0.000806: Commands type: plugins
+0.000824: 
+Starting
+
+0.001497: No interfaces enabled, adding default route via LOOP
+0.001507: [tip] Use the config file to define interfaces.
+0.001597: Start CSP router
+0.001977: Start CSP server
+0.002483: csp_server task waiting for connections
+2.646917: Succesfully loaded 1 plugins
+2.646956: my_plugin.so: version 1.0.0.0, gitrev v1.0.0
+2.646979: Starting interactive console
+2.648566: vcom:8> 
+2021.889909: vcom:8> e
+2022.210289: vcom:8> ex
+2022.531017: vcom:8> exi
+2022.799368: vcom:8> exit
+2024.443531: vcom:8> exit
+2024.443574: 
+
+2024.443608: Leaving console.
+2024.443631: 
+
+2024.450033: Stopping CSP server
+2025.330475: csp_server task done.

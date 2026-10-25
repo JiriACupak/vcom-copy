@@ -1,0 +1,15 @@
+# everything in build folder
+build/
+
+# temporary files
+console_stdout.txt
+history.txt
+log-*.txt
+
+# default log files location
+logs/
+
+# typical user files
+*.bin
+routes*.txt
+vcom*.json

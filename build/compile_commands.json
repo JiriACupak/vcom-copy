@@ -1,0 +1,104 @@
+[
+  {
+    "directory": "/home/wsl/YSPACE/vcom-copy/vcom-copy/build",
+    "command": "cc -Ivcom.p -I. -I.. -Iinclude -I../include -I../src -I../lib/socket_server/include -I/opt/vzlu/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O3 '-DVCOM_VERSION=\"0.9.0\"' '-DVCOM_GITREV=\"15d6b52-dirty\"' -D_FORTIFY_SOURCE=2 -Werror=format-security -Wno-stringop-overflow -Wno-deprecated-declarations -pthread -MD -MQ vcom.p/src_batch_run.c.o -MF vcom.p/src_batch_run.c.o.d -o vcom.p/src_batch_run.c.o -c ../src/batch_run.c",
+    "file": "../src/batch_run.c",
+    "output": "vcom.p/src_batch_run.c.o"
+  },
+  {
+    "directory": "/home/wsl/YSPACE/vcom-copy/vcom-copy/build",
+    "command": "cc -Ivcom.p -I. -I.. -Iinclude -I../include -I../src -I../lib/socket_server/include -I/opt/vzlu/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O3 '-DVCOM_VERSION=\"0.9.0\"' '-DVCOM_GITREV=\"15d6b52-dirty\"' -D_FORTIFY_SOURCE=2 -Werror=format-security -Wno-stringop-overflow -Wno-deprecated-declarations -pthread -MD -MQ vcom.p/src_csp_server.c.o -MF vcom.p/src_csp_server.c.o.d -o vcom.p/src_csp_server.c.o -c ../src/csp_server.c",
+    "file": "../src/csp_server.c",
+    "output": "vcom.p/src_csp_server.c.o"
+  },
+  {
+    "directory": "/home/wsl/YSPACE/vcom-copy/vcom-copy/build",
+    "command": "cc -Ivcom.p -I. -I.. -Iinclude -I../include -I../src -I../lib/socket_server/include -I/opt/vzlu/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O3 '-DVCOM_VERSION=\"0.9.0\"' '-DVCOM_GITREV=\"15d6b52-dirty\"' -D_FORTIFY_SOURCE=2 -Werror=format-security -Wno-stringop-overflow -Wno-deprecated-declarations -pthread -MD -MQ vcom.p/src_i2cif.c.o -MF vcom.p/src_i2cif.c.o.d -o vcom.p/src_i2cif.c.o -c ../src/i2cif.c",
+    "file": "../src/i2cif.c",
+    "output": "vcom.p/src_i2cif.c.o"
+  },
+  {
+    "directory": "/home/wsl/YSPACE/vcom-copy/vcom-copy/build",
+    "command": "cc -Ivcom.p -I. -I.. -Iinclude -I../include -I../src -I../lib/socket_server/include -I/opt/vzlu/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O3 '-DVCOM_VERSION=\"0.9.0\"' '-DVCOM_GITREV=\"15d6b52-dirty\"' -D_FORTIFY_SOURCE=2 -Werror=format-security -Wno-stringop-overflow -Wno-deprecated-declarations -pthread -MD -MQ vcom.p/src_json_dot.c.o -MF vcom.p/src_json_dot.c.o.d -o vcom.p/src_json_dot.c.o -c ../src/json_dot.c",
+    "file": "../src/json_dot.c",
+    "output": "vcom.p/src_json_dot.c.o"
+  },
+  {
+    "directory": "/home/wsl/YSPACE/vcom-copy/vcom-copy/build",
+    "command": "cc -Ivcom.p -I. -I.. -Iinclude -I../include -I../src -I../lib/socket_server/include -I/opt/vzlu/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O3 '-DVCOM_VERSION=\"0.9.0\"' '-DVCOM_GITREV=\"15d6b52-dirty\"' -D_FORTIFY_SOURCE=2 -Werror=format-security -Wno-stringop-overflow -Wno-deprecated-declarations -pthread -MD -MQ vcom.p/src_kiss_net.c.o -MF vcom.p/src_kiss_net.c.o.d -o vcom.p/src_kiss_net.c.o -c ../src/kiss_net.c",
+    "file": "../src/kiss_net.c",
+    "output": "vcom.p/src_kiss_net.c.o"
+  },
+  {
+    "directory": "/home/wsl/YSPACE/vcom-copy/vcom-copy/build",
+    "command": "cc -Ivcom.p -I. -I.. -Iinclude -I../include -I../src -I../lib/socket_server/include -I/opt/vzlu/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O3 '-DVCOM_VERSION=\"0.9.0\"' '-DVCOM_GITREV=\"15d6b52-dirty\"' -D_FORTIFY_SOURCE=2 -Werror=format-security -Wno-stringop-overflow -Wno-deprecated-declarations -pthread -MD -MQ vcom.p/src_main.c.o -MF vcom.p/src_main.c.o.d -o vcom.p/src_main.c.o -c ../src/main.c",
+    "file": "../src/main.c",
+    "output": "vcom.p/src_main.c.o"
+  },
+  {
+    "directory": "/home/wsl/YSPACE/vcom-copy/vcom-copy/build",
+    "command": "cc -Ivcom.p -I. -I.. -Iinclude -I../include -I../src -I../lib/socket_server/include -I/opt/vzlu/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O3 '-DVCOM_VERSION=\"0.9.0\"' '-DVCOM_GITREV=\"15d6b52-dirty\"' -D_FORTIFY_SOURCE=2 -Werror=format-security -Wno-stringop-overflow -Wno-deprecated-declarations -pthread -MD -MQ vcom.p/src_nii.c.o -MF vcom.p/src_nii.c.o.d -o vcom.p/src_nii.c.o -c ../src/nii.c",
+    "file": "../src/nii.c",
+    "output": "vcom.p/src_nii.c.o"
+  },
+  {
+    "directory": "/home/wsl/YSPACE/vcom-copy/vcom-copy/build",
+    "command": "cc -Ivcom.p -I. -I.. -Iinclude -I../include -I../src -I../lib/socket_server/include -I/opt/vzlu/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O3 '-DVCOM_VERSION=\"0.9.0\"' '-DVCOM_GITREV=\"15d6b52-dirty\"' -D_FORTIFY_SOURCE=2 -Werror=format-security -Wno-stringop-overflow -Wno-deprecated-declarations -pthread -MD -MQ vcom.p/src_vcom_config.c.o -MF vcom.p/src_vcom_config.c.o.d -o vcom.p/src_vcom_config.c.o -c ../src/vcom_config.c",
+    "file": "../src/vcom_config.c",
+    "output": "vcom.p/src_vcom_config.c.o"
+  },
+  {
+    "directory": "/home/wsl/YSPACE/vcom-copy/vcom-copy/build",
+    "command": "cc -Ivcom.p -I. -I.. -Iinclude -I../include -I../src -I../lib/socket_server/include -I/opt/vzlu/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O3 '-DVCOM_VERSION=\"0.9.0\"' '-DVCOM_GITREV=\"15d6b52-dirty\"' -D_FORTIFY_SOURCE=2 -Werror=format-security -Wno-stringop-overflow -Wno-deprecated-declarations -pthread -MD -MQ vcom.p/src_vcom_debug.c.o -MF vcom.p/src_vcom_debug.c.o.d -o vcom.p/src_vcom_debug.c.o -c ../src/vcom_debug.c",
+    "file": "../src/vcom_debug.c",
+    "output": "vcom.p/src_vcom_debug.c.o"
+  },
+  {
+    "directory": "/home/wsl/YSPACE/vcom-copy/vcom-copy/build",
+    "command": "cc -Ivcom.p -I. -I.. -Iinclude -I../include -I../src -I../lib/socket_server/include -I/opt/vzlu/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O3 '-DVCOM_VERSION=\"0.9.0\"' '-DVCOM_GITREV=\"15d6b52-dirty\"' -D_FORTIFY_SOURCE=2 -Werror=format-security -Wno-stringop-overflow -Wno-deprecated-declarations -pthread -MD -MQ vcom.p/src_posix_stcpsc.c.o -MF vcom.p/src_posix_stcpsc.c.o.d -o vcom.p/src_posix_stcpsc.c.o -c ../src/posix/stcpsc.c",
+    "file": "../src/posix/stcpsc.c",
+    "output": "vcom.p/src_posix_stcpsc.c.o"
+  },
+  {
+    "directory": "/home/wsl/YSPACE/vcom-copy/vcom-copy/build",
+    "command": "cc -Ivcom.p -I. -I.. -Iinclude -I../include -I../src -I../lib/socket_server/include -I/opt/vzlu/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O3 '-DVCOM_VERSION=\"0.9.0\"' '-DVCOM_GITREV=\"15d6b52-dirty\"' -D_FORTIFY_SOURCE=2 -Werror=format-security -Wno-stringop-overflow -Wno-deprecated-declarations -pthread -MD -MQ vcom.p/src_posix_tcpbridge.c.o -MF vcom.p/src_posix_tcpbridge.c.o.d -o vcom.p/src_posix_tcpbridge.c.o -c ../src/posix/tcpbridge.c",
+    "file": "../src/posix/tcpbridge.c",
+    "output": "vcom.p/src_posix_tcpbridge.c.o"
+  },
+  {
+    "directory": "/home/wsl/YSPACE/vcom-copy/vcom-copy/build",
+    "command": "cc -Ivcom.p -I. -I.. -Iinclude -I../include -I../src -I../lib/socket_server/include -I/opt/vzlu/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O3 '-DVCOM_VERSION=\"0.9.0\"' '-DVCOM_GITREV=\"15d6b52-dirty\"' -D_FORTIFY_SOURCE=2 -Werror=format-security -Wno-stringop-overflow -Wno-deprecated-declarations -pthread -MD -MQ vcom.p/src_posix_tcpcli.c.o -MF vcom.p/src_posix_tcpcli.c.o.d -o vcom.p/src_posix_tcpcli.c.o -c ../src/posix/tcpcli.c",
+    "file": "../src/posix/tcpcli.c",
+    "output": "vcom.p/src_posix_tcpcli.c.o"
+  },
+  {
+    "directory": "/home/wsl/YSPACE/vcom-copy/vcom-copy/build",
+    "command": "cc -Ivcom.p -I. -I.. -Iinclude -I../include -I../src -I../lib/socket_server/include -I/opt/vzlu/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O3 '-DVCOM_VERSION=\"0.9.0\"' '-DVCOM_GITREV=\"15d6b52-dirty\"' -D_FORTIFY_SOURCE=2 -Werror=format-security -Wno-stringop-overflow -Wno-deprecated-declarations -pthread -MD -MQ vcom.p/src_tcpp_cmd_tcpp.c.o -MF vcom.p/src_tcpp_cmd_tcpp.c.o.d -o vcom.p/src_tcpp_cmd_tcpp.c.o -c ../src/tcpp/cmd_tcpp.c",
+    "file": "../src/tcpp/cmd_tcpp.c",
+    "output": "vcom.p/src_tcpp_cmd_tcpp.c.o"
+  },
+  {
+    "directory": "/home/wsl/YSPACE/vcom-copy/vcom-copy/build",
+    "command": "cc -Ivcom.p -I. -I.. -Iinclude -I../include -I../src -I../lib/socket_server/include -I/opt/vzlu/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O3 '-DVCOM_VERSION=\"0.9.0\"' '-DVCOM_GITREV=\"15d6b52-dirty\"' -D_FORTIFY_SOURCE=2 -Werror=format-security -Wno-stringop-overflow -Wno-deprecated-declarations -pthread -MD -MQ vcom.p/src_tcpp_tcpp.c.o -MF vcom.p/src_tcpp_tcpp.c.o.d -o vcom.p/src_tcpp_tcpp.c.o -c ../src/tcpp/tcpp.c",
+    "file": "../src/tcpp/tcpp.c",
+    "output": "vcom.p/src_tcpp_tcpp.c.o"
+  },
+  {
+    "directory": "/home/wsl/YSPACE/vcom-copy/vcom-copy/build",
+    "command": "cc -Ivcom.p -I. -I.. -Iinclude -I../include -I../src -I../lib/socket_server/include -I/opt/vzlu/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O3 '-DVCOM_VERSION=\"0.9.0\"' '-DVCOM_GITREV=\"15d6b52-dirty\"' -D_FORTIFY_SOURCE=2 -Werror=format-security -Wno-stringop-overflow -Wno-deprecated-declarations -pthread -MD -MQ vcom.p/lib_socket_server_src_socket_server.c.o -MF vcom.p/lib_socket_server_src_socket_server.c.o.d -o vcom.p/lib_socket_server_src_socket_server.c.o -c ../lib/socket_server/src/socket_server.c",
+    "file": "../lib/socket_server/src/socket_server.c",
+    "output": "vcom.p/lib_socket_server_src_socket_server.c.o"
+  },
+  {
+    "directory": "/home/wsl/YSPACE/vcom-copy/vcom-copy/build",
+    "command": "cc -Ivcom.p -I. -I.. -Iinclude -I../include -I../src -I../lib/socket_server/include -I/opt/vzlu/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O3 '-DVCOM_VERSION=\"0.9.0\"' '-DVCOM_GITREV=\"15d6b52-dirty\"' -D_FORTIFY_SOURCE=2 -Werror=format-security -Wno-stringop-overflow -Wno-deprecated-declarations -pthread -MD -MQ vcom.p/src_utils_hex.c.o -MF vcom.p/src_utils_hex.c.o.d -o vcom.p/src_utils_hex.c.o -c ../src/utils/hex.c",
+    "file": "../src/utils/hex.c",
+    "output": "vcom.p/src_utils_hex.c.o"
+  },
+  {
+    "directory": "/home/wsl/YSPACE/vcom-copy/vcom-copy/build",
+    "command": "cc -Ivcom.p -I. -I.. -Iinclude -I../include -I../src -I../lib/socket_server/include -I/opt/vzlu/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O3 '-DVCOM_VERSION=\"0.9.0\"' '-DVCOM_GITREV=\"15d6b52-dirty\"' -D_FORTIFY_SOURCE=2 -Werror=format-security -Wno-stringop-overflow -Wno-deprecated-declarations -pthread -MD -MQ vcom.p/src_plugins.c.o -MF vcom.p/src_plugins.c.o.d -o vcom.p/src_plugins.c.o -c ../src/plugins.c",
+    "file": "../src/plugins.c",
+    "output": "vcom.p/src_plugins.c.o"
+  }
+]

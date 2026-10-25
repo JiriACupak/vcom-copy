@@ -1,0 +1,106 @@
+[
+  {
+    "name": "csp",
+    "type": "pkgconfig",
+    "version": "0.1",
+    "compile_args": [
+      "-I/opt/vzlu/include"
+    ],
+    "link_args": [
+      "/opt/vzlu/lib/libcsp.so"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": []
+  },
+  {
+    "name": "pld",
+    "type": "pkgconfig",
+    "version": "1.4.6",
+    "compile_args": [
+      "-I/opt/vzlu/include"
+    ],
+    "link_args": [
+      "/opt/vzlu/lib/x86_64-linux-gnu/libpld.so"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": []
+  },
+  {
+    "name": "console",
+    "type": "pkgconfig",
+    "version": "0.1",
+    "compile_args": [
+      "-I/opt/vzlu/include"
+    ],
+    "link_args": [
+      "/opt/vzlu/lib/libconsole.so"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": []
+  },
+  {
+    "name": "commands",
+    "type": "pkgconfig",
+    "version": "0.1.2",
+    "compile_args": [
+      "-I/opt/vzlu/include"
+    ],
+    "link_args": [
+      "/opt/vzlu/lib/libcommands.so"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": []
+  },
+  {
+    "name": "threads",
+    "type": "system",
+    "version": "unknown",
+    "compile_args": [
+      "-pthread"
+    ],
+    "link_args": [
+      "-pthread"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": []
+  },
+  {
+    "name": "srv-abs",
+    "type": "pkgconfig",
+    "version": "0.1",
+    "compile_args": [
+      "-I/opt/vzlu/include"
+    ],
+    "link_args": [
+      "/opt/vzlu/lib/libsrv-abs.so"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "d"
+    ]
+  }
+]

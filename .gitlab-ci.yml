@@ -1,0 +1,19 @@
+image: registry.gitlab.com/vzlu/sw/vcom:latest
+
+stages:
+  - build
+
+build:
+  stage: build
+  script:
+    - apt-get update
+    - apt-get install -y libssl-dev
+    - ./build.sh
+
+install:
+  stage: build
+  script:
+    - apt-get update
+    - apt-get install -y curl zip pip git pkg-config libsocketcan-dev cargo libssl-dev
+    - pip install meson ninja --break-system-packages
+    - ./install.sh

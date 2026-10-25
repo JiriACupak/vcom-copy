@@ -1,0 +1,368 @@
+Build started at 2026-10-16T20:11:51.296591
+Main binary: /usr/bin/python3
+Build Options: -Dprefix=/opt/vzlu -Dlibdir=lib -Dpkg_config_path=/opt/vzlu/lib/pkgconfig -Dcommands_type=plugins
+Python system: Linux
+The Meson build system
+Version: 1.12.1
+Source dir: /home/wsl/YSPACE/vcom-copy/vcom-copy
+Build dir: /home/wsl/YSPACE/vcom-copy/vcom-copy/build
+Build type: native build
+Project name: VCOM
+Project version: 0.9.0
+-----------
+Detecting compiler via: `cc --version` -> 0
+stdout:
+cc (Ubuntu 11.4.0-1ubuntu1~22.04.3) 11.4.0
+Copyright (C) 2021 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+-----------
+Running command: -cpp -x c -E -dM -
+-----
+-----------
+Detecting linker via: `cc -Wl,--version` -> 0
+stdout:
+GNU ld (GNU Binutils for Ubuntu) 2.38
+Copyright (C) 2022 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or (at your option) a later version.
+This program has absolutely no warranty.
+-----------
+stderr:
+collect2 version 11.4.0
+/usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccgXyv2x.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. --version -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+-----------
+Sanity check compiler command line: cc -o sanity_check_for_c.exe sanity_check_for_c.c -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Sanity check built target output for host machine c compiler
+ -- Running test binary command:  /home/wsl/YSPACE/vcom-copy/vcom-copy/build/meson-private/sanity_check_for_c.exe
+-----------
+Sanity check: `/home/wsl/YSPACE/vcom-copy/vcom-copy/build/meson-private/sanity_check_for_c.exe` -> 0
+ -- stdout:
+ 
+ -- stderr:
+ 
+ -- returncode: 0
+C compiler for the host machine: cc (gcc 11.4.0 "cc (Ubuntu 11.4.0-1ubuntu1~22.04.3) 11.4.0")
+C linker for the host machine: cc ld.bfd 2.38
+-----------
+Detecting archiver via: `gcc-ar --version` -> 0
+stdout:
+GNU ar (GNU Binutils for Ubuntu) 2.38
+Copyright (C) 2022 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or (at your option) any later version.
+This program has absolutely no warranty.
+-----------
+-----------
+Detecting compiler via: `cc --version` -> 0
+stdout:
+cc (Ubuntu 11.4.0-1ubuntu1~22.04.3) 11.4.0
+Copyright (C) 2021 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+-----------
+Running command: -cpp -x c -E -dM -
+-----
+-----------
+Detecting linker via: `cc -Wl,--version` -> 0
+stdout:
+GNU ld (GNU Binutils for Ubuntu) 2.38
+Copyright (C) 2022 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or (at your option) a later version.
+This program has absolutely no warranty.
+-----------
+stderr:
+collect2 version 11.4.0
+/usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccAuoUAA.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. --version -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+-----------
+Sanity check compiler command line: cc -o sanity_check_for_c.exe sanity_check_for_c.c -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Sanity check built target output for build machine c compiler
+ -- Running test binary command:  /home/wsl/YSPACE/vcom-copy/vcom-copy/build/meson-private/sanity_check_for_c.exe
+-----------
+Sanity check: `/home/wsl/YSPACE/vcom-copy/vcom-copy/build/meson-private/sanity_check_for_c.exe` -> 0
+ -- stdout:
+ 
+ -- stderr:
+ 
+ -- returncode: 0
+C compiler for the build machine: cc (gcc 11.4.0 "cc (Ubuntu 11.4.0-1ubuntu1~22.04.3) 11.4.0")
+C linker for the build machine: cc ld.bfd 2.38
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Target machine cpu family: x86_64
+Target machine cpu: x86_64
+Running compile:
+Working directory:  /home/wsl/YSPACE/vcom-copy/vcom-copy/build/meson-private/tmp88_adff2
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `cc /home/wsl/YSPACE/vcom-copy/vcom-copy/build/meson-private/tmp88_adff2/testfile.c -o /home/wsl/YSPACE/vcom-copy/vcom-copy/build/meson-private/tmp88_adff2/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2` -> 0
+Compiler for C supports arguments -D_FORTIFY_SOURCE=2: YES 
+Running compile:
+Working directory:  /home/wsl/YSPACE/vcom-copy/vcom-copy/build/meson-private/tmpybo41d84
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `cc /home/wsl/YSPACE/vcom-copy/vcom-copy/build/meson-private/tmpybo41d84/testfile.c -o /home/wsl/YSPACE/vcom-copy/vcom-copy/build/meson-private/tmpybo41d84/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -Werror=format-security` -> 0
+Compiler for C supports arguments -Werror=format-security: YES 
+Running compile:
+Working directory:  /home/wsl/YSPACE/vcom-copy/vcom-copy/build/meson-private/tmpr_1zow6k
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `cc /home/wsl/YSPACE/vcom-copy/vcom-copy/build/meson-private/tmpr_1zow6k/testfile.c -o /home/wsl/YSPACE/vcom-copy/vcom-copy/build/meson-private/tmpr_1zow6k/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -Wstringop-overflow -Wno-stringop-overflow` -> 0
+Compiler for C supports arguments -Wno-stringop-overflow: YES 
+Running compile:
+Working directory:  /home/wsl/YSPACE/vcom-copy/vcom-copy/build/meson-private/tmp0ow_kktt
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `cc /home/wsl/YSPACE/vcom-copy/vcom-copy/build/meson-private/tmp0ow_kktt/testfile.c -o /home/wsl/YSPACE/vcom-copy/vcom-copy/build/meson-private/tmp0ow_kktt/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -Wdeprecated-declarations -Wno-deprecated-declarations` -> 0
+Compiler for C supports arguments -Wno-deprecated-declarations: YES 
+Running command: /usr/bin/git describe --always --dirty
+--- stdout ---
+15d6b52-dirty
+
+--- stderr ---
+
+
+Pkg-config binary missing from cross or native file, or env var undefined.
+Trying a default Pkg-config fallback at pkg-config
+Found pkg-config: YES (/usr/bin/pkg-config) 0.29.2
+Determining dependency 'csp' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: /opt/vzlu/lib/pkgconfig
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --modversion csp` -> 0
+stdout:
+0.1
+-----------
+env[PKG_CONFIG_PATH]: /opt/vzlu/lib/pkgconfig
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --cflags csp` -> 0
+stdout:
+-I/opt/vzlu/include
+-----------
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: /opt/vzlu/lib/pkgconfig
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs csp` -> 0
+stdout:
+-L/opt/vzlu/lib -lcsp
+-----------
+env[PKG_CONFIG_PATH]: /opt/vzlu/lib/pkgconfig
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs csp` -> 0
+stdout:
+-L/opt/vzlu/lib -lcsp
+-----------
+Running compile:
+Working directory:  /home/wsl/YSPACE/vcom-copy/vcom-copy/build/meson-private/tmpsxlp_b_x
+Code:
+
+        #include<stddef.h>
+        #include<stdio.h>
+        int main(void) {
+            printf("%ld\n", (long)(sizeof(void *)));
+            return 0;
+        }
+-----------
+Command line: `cc /home/wsl/YSPACE/vcom-copy/vcom-copy/build/meson-private/tmpsxlp_b_x/testfile.c -o /home/wsl/YSPACE/vcom-copy/vcom-copy/build/meson-private/tmpsxlp_b_x/output.exe -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE` -> 0
+Program stdout:
+
+8
+
+Program stderr:
+
+
+Running compile:
+Working directory:  /home/wsl/YSPACE/vcom-copy/vcom-copy/build/meson-private/tmpm177s84q
+Code:
+
+-----------
+Command line: `cc /home/wsl/YSPACE/vcom-copy/vcom-copy/build/meson-private/tmpm177s84q/testfile.c -o /home/wsl/YSPACE/vcom-copy/vcom-copy/build/meson-private/tmpm177s84q/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE --print-search-dirs` -> 0
+stdout:
+install: /usr/lib/gcc/x86_64-linux-gnu/11/
+programs: =/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/bin/
+libraries: =/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/11/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/11/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+-----------
+Run-time dependency csp found: YES 0.1
+Determining dependency 'pld' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: /opt/vzlu/lib/pkgconfig
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --modversion pld` -> 0
+stdout:
+1.4.6
+-----------
+env[PKG_CONFIG_PATH]: /opt/vzlu/lib/pkgconfig
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --cflags pld` -> 0
+stdout:
+-I/opt/vzlu/include
+-----------
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: /opt/vzlu/lib/pkgconfig
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs pld` -> 0
+stdout:
+-L/opt/vzlu/lib/x86_64-linux-gnu -lpld
+-----------
+env[PKG_CONFIG_PATH]: /opt/vzlu/lib/pkgconfig
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs pld` -> 0
+stdout:
+-L/opt/vzlu/lib/x86_64-linux-gnu -lpld
+-----------
+Run-time dependency pld found: YES 1.4.6
+Determining dependency 'console' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: /opt/vzlu/lib/pkgconfig
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --modversion console` -> 0
+stdout:
+0.1
+-----------
+env[PKG_CONFIG_PATH]: /opt/vzlu/lib/pkgconfig
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --cflags console` -> 0
+stdout:
+-I/opt/vzlu/include
+-----------
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: /opt/vzlu/lib/pkgconfig
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs console` -> 0
+stdout:
+-L/opt/vzlu/lib -lconsole
+-----------
+env[PKG_CONFIG_PATH]: /opt/vzlu/lib/pkgconfig
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs console` -> 0
+stdout:
+-L/opt/vzlu/lib -lconsole
+-----------
+Run-time dependency console found: YES 0.1
+Determining dependency 'commands' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: /opt/vzlu/lib/pkgconfig
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --modversion commands` -> 0
+stdout:
+0.1.2
+-----------
+env[PKG_CONFIG_PATH]: /opt/vzlu/lib/pkgconfig
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --cflags commands` -> 0
+stdout:
+-I/opt/vzlu/include
+-----------
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: /opt/vzlu/lib/pkgconfig
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs commands` -> 0
+stdout:
+-L/opt/vzlu/lib -lcommands
+-----------
+env[PKG_CONFIG_PATH]: /opt/vzlu/lib/pkgconfig
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs commands` -> 0
+stdout:
+-L/opt/vzlu/lib -lcommands
+-----------
+Run-time dependency commands found: YES 0.1.2
+Run-time dependency threads found: YES
+Determining dependency 'srv-abs' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: /opt/vzlu/lib/pkgconfig
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --modversion srv-abs` -> 0
+stdout:
+0.1
+-----------
+env[PKG_CONFIG_PATH]: /opt/vzlu/lib/pkgconfig
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --cflags srv-abs` -> 0
+stdout:
+-I/opt/vzlu/include
+-----------
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: /opt/vzlu/lib/pkgconfig
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs srv-abs` -> 0
+stdout:
+-L/opt/vzlu/lib -lsrv-abs
+-----------
+env[PKG_CONFIG_PATH]: /opt/vzlu/lib/pkgconfig
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs srv-abs` -> 0
+stdout:
+-L/opt/vzlu/lib -lsrv-abs
+-----------
+Run-time dependency srv-abs found: YES 0.1
+Running compile:
+Working directory:  /home/wsl/YSPACE/vcom-copy/vcom-copy/build/meson-private/tmp84c_6xs0
+Code:
+int main(void) { return 0; }
+
+-----------
+Command line: `cc /home/wsl/YSPACE/vcom-copy/vcom-copy/build/meson-private/tmp84c_6xs0/testfile.c -o /home/wsl/YSPACE/vcom-copy/vcom-copy/build/meson-private/tmp84c_6xs0/output.exe -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -ldl -Wl,--allow-shlib-undefined` -> 0
+Library dl found: YES
+Running compile:
+Working directory:  /home/wsl/YSPACE/vcom-copy/vcom-copy/build/meson-private/tmpgpeccmaw
+Code:
+int main(void) { return 0; }
+
+-----------
+Command line: `cc /home/wsl/YSPACE/vcom-copy/vcom-copy/build/meson-private/tmpgpeccmaw/testfile.c -o /home/wsl/YSPACE/vcom-copy/vcom-copy/build/meson-private/tmpgpeccmaw/output.exe -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -lcrypto -Wl,--allow-shlib-undefined` -> 0
+Library crypto found: YES
+Configuring conf_vcom.h using configuration
+Build targets in project: 1
+
+VCOM 0.9.0
+
+  User defined options
+    commands_type  : plugins
+    libdir         : lib
+    pkg_config_path: /opt/vzlu/lib/pkgconfig
+    prefix         : /opt/vzlu
+
+Found ninja-1.13.2.git.kitware.jobserver-pipe-1 at /home/wsl/.local/bin/ninja

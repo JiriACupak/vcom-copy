@@ -1,0 +1,114 @@
+{
+  "colors": "auto",
+  "logging": {
+    "enable": true,
+    "dir": "./logs",
+    "console_level": 3
+  },
+  "load_routes": "routes.txt",
+  "hmac_key": "00C0FFEE",
+  "csp": {
+    "address": 7,
+    "hostname": "VCOM",
+    "debug": {
+      "error": true,
+      "warn": true,
+      "info":  false,
+      "buffer": false,
+      "packet":  false,
+      "protocol": false,
+      "lock":  false,
+      "hexdump": false
+    },
+    "rdp": {
+      "window_size":  10,
+      "conn_timeout_ms": 10000,
+      "packet_timeout_ms":  1000,
+      "delayed_acks": 1,
+      "ack_timeout_ms":  500,
+      "ack_delay_count": 7
+    },
+    "conn_max": 30,
+    "conn_queue_length": 30,
+    "fifo_length": 50,
+    "port_max_bind": 32,
+    "buffers": 400,
+    "buffer_data_size": 512,
+    "conn_dfl_so": 4
+  },
+  "nii": {
+    "enable": false,
+    "port": 9500
+  },
+  "batch": {
+    "enable": false,
+    "stop_on_error": false,
+    "file": "--"
+  },
+  "listen": {
+    "enable": false,
+    "csp_port": 1
+  },
+  "txn": {
+    "requests": true,
+    "hex": false,
+    "json": false,
+    "pretty": true,
+    "detailed": true,
+    "verbose": true
+  },
+  "ifc": [
+    {
+      "kind": "KISS",
+      "enable": false,
+      "device": "/dev/ttyUSB0",
+      "baud": 500000
+    },
+    {
+      "kind": "KISS_NET",
+      "enable": false,
+      "host_ip": "127.0.0.1",
+      "host_port": 2000
+    },
+    {
+      "kind": "CAN0",
+      "enable": true,
+      "device": "can0",
+      "baud": 1000000
+    },
+    {
+      "kind": "CAN1",
+      "enable": false,
+      "device": "can1",
+      "baud": 1000000
+    },
+    {
+      "kind": "I2C",
+      "enable": false,
+      "device": "i2c-10"
+    },
+    {
+      "kind": "TCP",
+      "enable": false,
+      "address": "addr:port",
+      "password": "",
+      "legacy_protocol": false
+    },
+    {
+      "kind": "TCPD",
+      "enable": false,
+      "port": 9211,
+      "password": "",
+      "legacy_protocol": false
+    }
+  ],
+  "paranoid" : {
+    "enable": true
+  },
+  "plugins": [
+    {
+      "path": "path/to/plugin.so",
+      "md5sum": "md5sum"
+    }
+  ]
+}

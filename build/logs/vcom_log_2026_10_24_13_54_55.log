@@ -1,0 +1,458 @@
+0.000035: Log start: 2026/10/24 13:54:55.255125
+0.000068: Writing log to file: ./logs/vcom_log_2026_10_24_13_54_55.log
+0.000105: VCOM version information:
+0.000115: Semantic version: 0.9.0
+0.000121: Git revision:  15d6b52-dirty
+0.000130: CSP revision:  v1.6+vzlu
+0.000136: Build time:    Oct 16 2026 20:11:56
+0.000143: Commands type: plugins
+0.000197: 
+Starting
+
+0.000468: No interfaces enabled, adding default route via LOOP
+0.000472: [tip] Use the config file to define interfaces.
+0.000568: Start CSP router
+0.000697: Start CSP server
+0.000892: csp_server task waiting for connections
+0.109539: Succesfully loaded 1 plugins
+0.109548: my_plugin.so: version 1.0.0.0, gitrev v1.0.0
+0.109553: Starting interactive console
+0.110275: vcom:8> 
+3.804338: vcom:8> h
+4.007918: vcom:8> he
+4.251625: vcom:8> hel
+4.389095: vcom:8> help <cmd>
+4.610561: vcom:8> help
+4.610610: 
+
+4.610634: list [-aAdg] [GROUP]
+
+4.610636:   (aliases: 
+4.610638: ls
+4.610640: , 
+4.610641: la
+4.610643: , 
+4.610644: ll
+4.610669: )
+
+4.610688:   
+4.610713: List available commands
+
+4.610736: help <cmd>
+
+4.610741:   
+4.610764: Show the help page for a command, or list all commands and their basic usage
+
+4.610772: exit
+
+4.610775:   (aliases: 
+4.610776: quit
+4.610778: , 
+4.610779: q
+4.610799: )
+
+4.610804:   
+4.610823: Quit console.
+
+4.610830: sleep [<secs>] [-m <ms>]
+
+4.610833:   
+4.610839: Stop the console for a given time (max 24h); useful in batched scripts. Both
+  parameters may be combined.
+
+4.610859: ping [-rxHc] <node> [-t <ms>] [-s <bytes>]
+
+4.610865:   
+4.610886: Ping a CSP node using the routing table
+
+4.610908: pt [-wrxHc] <node> <port> [<body>] [-s <bytes>] [-t <ms>] [-p <prio>]
+
+4.610917:   
+4.610939: Pass through command: send generic CSP packet.
+
+4.610961: ident [<node>] [-t <ms>]
+
+4.610966:   (aliases: 
+4.610968: cmp ident
+4.610988: )
+
+4.610992:   
+4.611013: Identify a remote CSP node via CMP
+
+4.611036: buffree [<node>] [-t <ms>]
+
+4.611041:   
+4.611062: Check free buffers of a CSP node
+
+4.611069: memfree [<node>] [-t <ms>]
+
+4.611072:   
+4.611095: Check free memory of a CSP node
+
+4.611104: ifc
+
+4.611107:   
+4.611111: Show stats of local CSP interfaces
+
+4.611125: conn
+
+4.611130:   
+4.611150: Show CSP connection table
+
+4.611173: debug [<type>] [<onoff>]
+
+4.611178:   
+4.611200: Check or toggle CSP log levels. Run with no args to print all levels
+
+4.611207: uptime [<node>] [-t <ms>]
+
+4.611210:   
+4.611230: Get uptime of a CSP node
+
+4.611238: cmp clock <node> [-t <ms>] [-s <sec>] [-n <nsec>]
+
+4.611242:   
+4.611245: Set CSP node clock via CMP
+
+4.611248: cmp ifc <node> [-t <ms>] <iface>
+
+4.611250:   (aliases: 
+4.611252: rifc
+4.611271: )
+
+4.611276:   
+4.611297: Read CSP node interface stats via CMP
+
+4.611320: cmp peek <node> [-t <ms>] <addr> <len>
+
+4.611326:   
+4.611347: Peek CSP node memory via CMP
+
+4.611370: cmp poke <node> [-t <ms>] <addr> <bytes>
+
+4.611375:   
+4.611396: Poke CSP node memory via CMP
+
+4.611419: cmp route_set <node> [-t <ms>] <addr> [-m <mac>] <iface>
+
+4.611425:   
+4.611446: Set route in a CSP node via CMP
+
+4.611468: rdpopt [-w <n>] [-c <n>] [-p <n>] [-d <n>] [-a <n>] [-D <n>]
+
+4.611474:   
+4.611497: Set local RDP options
+
+4.611520: reboot [<node>]
+
+4.611525:   
+4.611532: Reboot a CSP node
+
+4.611535: rps <node> [-t <ms>]
+
+4.611537:   
+4.611544: Remote `ps` - list processes of a CSP node
+
+4.611565: bounce [-rxHcq] <node> [-t <ms>] [-n <ms>] [-s <bytes>] [-i <count>]
+
+4.611570:   
+4.611592: Measure CSP connection round-trip latencies and packet loss
+
+4.611598: rt list
+
+4.611601:   (aliases: 
+4.611602: route
+4.611622: )
+
+4.611626:   
+4.611647: Show local CSP routing table
+
+4.611670: rt add <addr> <iface> [-v <via>]
+
+4.611676:   
+4.611680: Add a local CSP route
+
+4.611711: rt rm <num>
+
+4.611716:   (aliases: 
+4.611718: rt del
+4.611738: )
+
+4.611742:   
+4.611763: Delete a route by its number (see `route`)
+
+4.611786: rt set <num> [-a <addr>] [-i <iface>] [-v <via>]
+
+4.611792:   
+4.611815: Modify a local CSP route identified by its number (see `route`). All
+  arguments are optional; original value is omitted.
+
+4.611839: rt save [<file>]
+
+4.611855:   
+4.611876: Save the routing table to a file
+
+4.611899: rt load [<file>]
+
+4.611905:   
+4.611910: Load the routing table from a file
+
+4.611913: txnstyle [-ar] [<options>]
+
+4.611915:   
+4.611935: Configure how CSP transactions are displayed.
+
+4.611958: tcp list
+
+4.611963:   
+4.611986: List clients connected to the TCP CSP server
+
+4.612009: tcp kick <addr>
+
+4.612014:   
+4.612019: Kick a TCP client
+
+4.612023: plugins show
+
+4.612025:   
+4.612028: Show all currently configured plugins
+
+4.612031: hello
+
+4.612033: 
+4.612038: vcom:8> 
+8.558108: vcom:8> p
+8.774906: vcom:8> pl
+9.033255: vcom:8> plu
+9.377410: vcom:8> plug
+9.498399: vcom:8> plugi
+9.728850: vcom:8> plugin
+10.971983: vcom:8> plugins
+11.112701: vcom:8> plugins 
+11.469966: vcom:8> plugins s
+11.812555: vcom:8> plugins sh
+11.951982: vcom:8> plugins sho
+12.240751: vcom:8> plugins show
+12.393275: vcom:8> plugins show
+12.393322: 
+
+12.393350: Currently loaded 1 plugins
+
+12.393354: my_plugin.so: version 1.0.0.0, gitrev v1.0.0
+
+12.393357: vcom:8> 
+21.336735: vcom:8> h
+21.514013: vcom:8> he
+21.765775: vcom:8> hel
+21.939739: vcom:8> hell
+22.147280: vcom:8> hello
+22.715551: vcom:8> hello
+22.715599: 
+
+22.715626: vcom:8> 
+2384.625725: 
+
+2384.625757: vcom:8> 
+2384.625767: 
+
+2384.625770: vcom:8> 
+2384.625776: 
+
+2384.625779: vcom:8> 
+2384.625784: 
+
+2384.625787: vcom:8> 
+2384.625792: 
+
+2384.625794: vcom:8> 
+2384.625799: 
+
+2384.625802: vcom:8> 
+2384.625807: 
+
+2384.625810: vcom:8> 
+2384.625815: 
+
+2384.625818: vcom:8> 
+2384.625823: 
+
+2384.625831: vcom:8> 
+2384.625840: 
+
+2384.625843: vcom:8> 
+2384.625847: 
+
+2384.625850: vcom:8> 
+2384.625855: 
+
+2384.625858: vcom:8> 
+2384.625863: 
+
+2384.625866: vcom:8> 
+2384.625870: 
+
+2384.625873: vcom:8> 
+2384.625878: 
+
+2384.625882: vcom:8> 
+2384.625890: 
+
+2384.625893: vcom:8> 
+2384.625898: 
+
+2384.625901: vcom:8> 
+2384.625906: 
+
+2384.625908: vcom:8> 
+2384.625913: 
+
+2384.625916: vcom:8> 
+2384.625921: 
+
+2384.625924: vcom:8> 
+2384.625928: 
+
+2384.625931: vcom:8> 
+2384.625936: 
+
+2384.625939: vcom:8> 
+2384.625944: 
+
+2384.625946: vcom:8> 
+2384.625951: 
+
+2384.625954: vcom:8> 
+2384.625959: 
+
+2384.625962: vcom:8> 
+2384.625966: 
+
+2384.625969: vcom:8> 
+2384.625974: 
+
+2384.625977: vcom:8> 
+2384.625982: 
+
+2384.625985: vcom:8> 
+2384.625989: 
+
+2384.625992: vcom:8> 
+2384.625997: 
+
+2384.626000: vcom:8> 
+2384.626005: 
+
+2384.626007: vcom:8> 
+2384.626012: 
+
+2384.626015: vcom:8> 
+2384.626020: 
+
+2384.626023: vcom:8> 
+2384.626028: 
+
+2384.626031: vcom:8> 
+2384.626036: 
+
+2384.626039: vcom:8> 
+2384.626043: 
+
+2384.626046: vcom:8> 
+2384.626051: 
+
+2384.626054: vcom:8> 
+2384.626059: 
+
+2384.626062: vcom:8> 
+2384.626066: 
+
+2384.626069: vcom:8> 
+2384.626074: 
+
+2384.626077: vcom:8> 
+2384.626082: 
+
+2384.626086: vcom:8> 
+2384.626091: 
+
+2384.626093: vcom:8> 
+2384.626098: 
+
+2384.626101: vcom:8> 
+2384.626106: 
+
+2384.626109: vcom:8> 
+2384.626130: 
+
+2384.626138: vcom:8> 
+2384.626144: 
+
+2384.626147: vcom:8> 
+2384.626151: 
+
+2384.626154: vcom:8> 
+2384.626159: 
+
+2384.626162: vcom:8> 
+2384.626167: 
+
+2384.626170: vcom:8> 
+2384.626175: 
+
+2384.626177: vcom:8> 
+2384.626182: 
+
+2384.626185: vcom:8> 
+2384.626190: 
+
+2384.626193: vcom:8> 
+2384.626198: 
+
+2384.626201: vcom:8> 
+2384.626206: 
+
+2384.626208: vcom:8> 
+2384.626213: 
+
+2384.626216: vcom:8> 
+2384.626221: 
+
+2384.626224: vcom:8> 
+2384.626229: 
+
+2384.626231: vcom:8> 
+2384.626236: 
+
+2384.626239: vcom:8> 
+2384.626244: 
+
+2384.626247: vcom:8> 
+2384.626252: 
+
+2384.626255: vcom:8> 
+2384.626260: 
+
+2384.626263: vcom:8> 
+2384.626267: 
+
+2384.626270: vcom:8> 
+2384.626275: 
+
+2384.626278: vcom:8> 
+2384.626283: 
+
+2384.626286: vcom:8> 
+2384.626291: 
+
+2384.626294: vcom:8> 
+2384.626299: 
+
+2384.626301: vcom:8> 
+2384.626306: 
+
+2384.626309: vcom:8> 
+2384.626314: 
+
+2384.626317: vcom:8> 
+2384.626322: 
+

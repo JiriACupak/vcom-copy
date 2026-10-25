@@ -1,0 +1,8 @@
+[options]
+prefix = /opt/vzlu
+libdir = lib
+pkg_config_path = /opt/vzlu/lib/pkgconfig
+commands_type = plugins
+
+[properties]
+

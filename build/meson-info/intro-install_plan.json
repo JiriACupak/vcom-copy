@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "/home/wsl/YSPACE/vcom-copy/vcom-copy/build/vcom": {
+      "destination": "{bindir}/vcom",
+      "tag": "runtime",
+      "subproject": null,
+      "install_rpath": null,
+      "build_rpaths": [
+        "/opt/vzlu/lib",
+        "/opt/vzlu/lib/x86_64-linux-gnu"
+      ]
+    }
+  }
+}

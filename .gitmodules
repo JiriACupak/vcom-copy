@@ -1,0 +1,20 @@
+[submodule "subprojects/commands"]
+	path = subprojects/commands
+	url = https://gitlab.com/vzlu/sw/libcommands.git
+	branch = main
+[submodule "subprojects/console"]
+	path = subprojects/console
+	url = https://gitlab.com/vzlu/sw/lib-console.git
+	branch = master
+[submodule "subprojects/csp"]
+	path = subprojects/csp
+	url = https://gitlab.com/vzlu/sw/libcsp.git
+	branch = master
+[submodule "subprojects/pld"]
+	path = subprojects/pld
+	url = https://gitlab.com/vzlu/sw/lpldgen.git
+	branch = master
+[submodule "subprojects/srv-abs"]
+	path = subprojects/srv-abs
+	url = https://gitlab.com/vzlu/sw/sally.git
+	branch = main

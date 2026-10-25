@@ -1,0 +1,63 @@
+0.000025: Log start: 2026/10/16 20:22:56.372190
+0.000067: Writing log to file: ./logs/vcom_log_2026_10_16_20_22_56.log
+0.000131: VCOM version information:
+0.000141: Semantic version: 0.9.0
+0.000165: Git revision:  15d6b52-dirty
+0.000189: CSP revision:  v1.6+vzlu
+0.000215: Build time:    Oct 16 2026 20:11:56
+0.000222: Commands type: plugins
+0.000228: 
+Starting
+
+0.000424: No interfaces enabled, adding default route via LOOP
+0.000426: [tip] Use the config file to define interfaces.
+0.000449: Start CSP router
+0.000585: Start CSP server
+0.000798: csp_server task waiting for connections
+0.105948: Failed to load plugin: /home/wsl/YSPACE/component-template/component-template/MY/my_plugin.so: undefined symbol: vcom_register_command
+0.105970: Succesfully loaded 0 plugins
+0.105976: Starting interactive console
+0.106260: vcom:8> 
+33.186056: vcom:8> h
+33.466531: vcom:8> he
+34.191762: vcom:8> hel
+34.374697: vcom:8> help <cmd>
+36.610950: vcom:8> hel
+37.150188: vcom:8> he
+37.195163: vcom:8> h
+37.230208: vcom:8> 
+37.784201: vcom:8> h
+38.173480: vcom:8> he
+38.428853: vcom:8> hel
+38.591924: vcom:8> hell
+38.784253: vcom:8> hello
+38.990922: vcom:8> hello
+38.990973: 
+
+38.991003: 
+38.991009: Unknown command.
+
+38.991012: 
+38.991015: Unrecognized command: "
+38.991017: h
+38.991019: e
+38.991021: l
+38.991023: l
+38.991025: o
+38.991063: "
+
+38.991088: Use `ls` or `help` for a list of commands.
+
+38.991095: vcom:8> 
+40.485153: vcom:8> e
+40.803550: vcom:8> ex
+41.009653: vcom:8> exi
+41.221537: vcom:8> exit
+41.764114: vcom:8> exit
+41.764165: 
+
+41.764185: Leaving console.
+41.764206: 
+
+41.764435: Stopping CSP server
+41.849410: csp_server task done.

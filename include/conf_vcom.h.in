@@ -1,0 +1,15 @@
+/**
+ * VCOM configuration
+ * 
+ * Created on 2020/10/08.
+ */
+
+#ifndef CONF_VCOM_H
+#define CONF_VCOM_H
+
+#cmakedefine01 VCOM_ENABLE_CAN
+#cmakedefine VCOM_COMMANDS_TYPE @VCOM_COMMANDS_TYPE@
+#cmakedefine VCOM_STATIC_CMDS
+#cmakedefine VCOM_ALLOW_PLUGINS
+
+#endif //CONF_VCOM_H
