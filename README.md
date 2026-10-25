@@ -92,7 +92,7 @@ On startup, VCOM will try to load the plugin and if successful, execute `registe
 
 # Můj postup
 
-Postupoval jsem dle README sekce "Installation with plugin support", VCOM se mi podařilo sestavit bez větších problémů. Následně jsem se pokoušel sestavit dle návodu kódy v component-templates. Podařilo se mi vytvořit soubor "libcomp-templ-cli.so", opakovaně se mi tento plugin nepodařoli spojit v VCOM. Pomocí příkazu s parametry "readelf --dyn-syms -W" jsem zjistil, že v této knihovně není funkce "register_cli_cmds". Vytvořil jsem soubor "plugin.c" s vlastním pluginem "cmd_my_hello", který jsem registroval do funkce "register_cli_cmds". Po přeložení na "my_plugin.so" se mi ho podařilo propojit s VCOM. 
+Postupoval jsem dle README sekce "Installation with plugin support", VCOM se mi podařilo sestavit bez větších problémů. Následně jsem se pokoušel sestavit dle návodu kódy v component-templates. Podařilo se mi vytvořit soubor "libcomp-templ-cli.so", opakovaně se mi tento plugin nepodařoli spojit s VCOM. Pomocí příkazu s parametry "readelf --dyn-syms -W" jsem zjistil, že v této knihovně není funkce "register_cli_cmds". Vytvořil jsem soubor "plugin.c" s vlastním pluginem "cmd_my_hello", který jsem registroval do funkce "register_cli_cmds". Po přeložení na "my_plugin.so" se mi ho podařilo propojit s VCOM. 
 
 Můj plugin je jen obyčejné vypsání odpovědi na text "hello". Nemělo by být ale problémové takto napsat libovolný plugin. Případně i do této podoby upravit pluginy z component-templates. 
 
